@@ -1,0 +1,50 @@
+:root{
+    --line-height: 1.8rem;
+    --navbar-height: 60px;
+    --height-service-item-top: 282px
+}
+*{
+    box-sizing: inherit;
+}
+
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(10, 10, 46);
+    border-radius: 20px;
+    border: 3px solid #fff ;
+  }
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.pt{ 
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.title{
+    color: #fff;
+    font-size: 8rem;
+    font-family: Fuggles;
+    text-align: center;
+}
+.mgt{
+    margin-top: 140px;
+}
+button{
+    outline: none;
+    border: none;
+}
+.mttop{
+    margin-top: 40px;
+}
